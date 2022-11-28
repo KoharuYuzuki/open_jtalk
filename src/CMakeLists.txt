@@ -12,6 +12,7 @@ set(PACKAGE_NAME "open_jtalk")
 set(PACKAGE_URL "")
 set(PACKAGE_VERSION ${OPEN_JTALK_VERSION})
 set(PACKAGE_STRING "${PACKAGE_NAME} ${PACKAGE_VERSION}")
+set(CMAKE_CXX_FLAGS "-std=c++14")
 
 # build configuration
 project(openjtalk)
